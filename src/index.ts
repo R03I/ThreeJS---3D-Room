@@ -51,7 +51,7 @@ wallTexture.wrapT = THREE.RepeatWrapping;
 wallTexture.repeat.set(4, 4);
 
 objectManager.loadObject('models/mtl/flower.mtl', 'models/obj/flower.obj', new THREE.Vector3(2, 2, 2), new THREE.Vector3(2, 2.73, -4), new THREE.Euler(0, 0, 0));
-objectManager.loadObject('models/mtl/MyDesk.mtl', 'models/obj/MyDesk.obj', new THREE.Vector3(2.5, 2.5, 2.5), new THREE.Vector3(0, 0, -3.6), new THREE.Euler(0, Math.PI / -2, 0));
+objectManager.loadObject('models/mtl/Desk.mtl', 'models/obj/Desk.obj', new THREE.Vector3(2.5, 2.5, 2.5), new THREE.Vector3(0, 0, -3.6), new THREE.Euler(0, Math.PI / -2, 0));
 objectManager.loadObject('models/mtl/Laptop.mtl', 'models/obj/Laptop.obj', new THREE.Vector3(1, 1, 1), new THREE.Vector3(0.4, 2.34, -3.2), new THREE.Euler(0, -1.8, 0), null, (object: THREE.Object3D) => {
     laptopMesh = object;
 });
